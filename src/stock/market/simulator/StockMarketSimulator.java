@@ -11,9 +11,13 @@ import java.io.IOException;
 
 public class StockMarketSimulator {
     
-    // Path to where the files are stored for rate history
-    public static final String HISTORYFILEPATH = "src/stock/market/simulator/history/";
+    // Path to where the files are stored for rate history 
+    // USE WHEN RUNNING PROJECT IN NETBEANS
+    //public static final String HISTORYFILEPATH = "src/stock/market/simulator/history/";
 
+    // Path to history files to be used when executing program through jar file
+    public static final String HISTORYFILEPATH = "history/";
+    
     public static void main(String[] args) throws IOException {
 
         accountProfile accProfile = accountCreation();
