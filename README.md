@@ -8,7 +8,7 @@ It essentially simulates the increases and decreases in the stock market where t
 An incremental style of development was used, where more and more features were added on based on a given timeline.
 
 ## Installation
-To execute the program, go into the dist folder and run the Stock_Market_Simulator.jar file. If running from Netbeans, a change will have to made to the path to the history (read the comments in StockMarketSimulator.java)
+To execute the program, download the repository and run the shortcut, Stock Market Simulator. If running from Netbeans, a change will have to made to the path to the history (read the comments in StockMarketSimulator.java)
 
 ## Potential Upgrades
 
