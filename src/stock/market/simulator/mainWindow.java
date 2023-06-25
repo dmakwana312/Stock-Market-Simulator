@@ -357,7 +357,7 @@ public class mainWindow {
 
     // Method to display the bought stocks in the relative text area
     public void setStockBought() {
-        ArrayList<stockProfile> stocksBought = accProfile.getStocks();
+        ArrayList<stockProfile> stocksBought = (ArrayList<stockProfile>) accProfile.getStocks();
         int numOfStock = stocksBought.size();
         String message = "STOCK NAME - BUY PRICE/SELL PRICE - Quantity\n";
 

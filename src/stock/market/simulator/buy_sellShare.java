@@ -164,7 +164,7 @@ public class buy_sellShare {
 
     // Method to search account profile for a stock (used when user is selling stock)
     public stockProfile searchBoughtStock(String stockName) {
-        ArrayList<stockProfile> stocksBought = accProfile.getStocks();
+        ArrayList<stockProfile> stocksBought = (ArrayList<stockProfile>) accProfile.getStocks();
         for (int i = 0; i < stocksBought.size(); i++) {
             if (stocksBought.get(i).getProfileName().equalsIgnoreCase(stockName)) {
                 return stocksBought.get(i);
